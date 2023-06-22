@@ -8,7 +8,7 @@ Classifying-Stock-Price-Movements-with-News-Keywords
 
 ## Code說明
 Monpa批次切辭.ipynb: 在這份notebook中，我們進行資料的前置處理工作，包含了以下三個部分:
-#利用Word2Vec來找出與"2609陽明"相關性最高的前六個詞彙，作為後續新聞資料篩選的標準。
+*利用Word2Vec來找出與"2609陽明"相關性最高的前六個詞彙，作為後續新聞資料篩選的標準。
 #刪除stopwords，即去除不具有太多語義信息的常用詞，如"的"、"是"等，以降低雜訊對分析的影響。
 #採用Monpa套件進行新聞的段詞切分，將文章切割成單獨的詞彙，方便後續處理。
 
